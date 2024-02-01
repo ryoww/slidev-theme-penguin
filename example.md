@@ -4,41 +4,27 @@ colorSchema: 'auto'
 layout: intro
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
-title: Slidev Penguin Theme
-themeConfig:
-
+lineNumbers: true
 ---
 
+# StreamDiffusion
 
-# A penguin Slidev Theme
+T-4-18 下沢 亮太郎
 
-🐧 slides for developers
-
-<div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
+<div class="abs-br m-6 flex gap-2">
+  <a href="https://github.com/ryoww" target="_blank" alt="GitHub" title="Open in GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
 </div>
 
 ---
-layout: presenter
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvarosabu'
+theme: the-unnamed
 
-twitterUrl: 'https://twitter.com/alvarosabu'
-presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1666351649/b_w_egfb4v.png'
+# 始めに
+
 ---
 
-# Alvaro Saburido
-
-DevRel at <a  href="https://www.storyblok.com/"><logos-storyblok-icon  mr-1/>Storyblok</a>
-
-- Barcelona, Spain 🇪🇸
-- I often write at <a href="https://dev.to/alvarosaburido"> dev.to/@alvarosabu</a>
-- Creating content on <a href="https://www.youtube.com/channel/AlvaroDevLabs" ><logos-youtube-icon mr-1 />AlvaroDevLabs</a>
-- Blog & Portfolio <a href="https://alvarosaburido.dev">alvarosaburido.dev</a>
-- Say hi at <a href="https://twitter.com/alvarosabu"><logos-twitter mr-1 />@alvarosabu</a>
 
 ---
 layout: text-image
